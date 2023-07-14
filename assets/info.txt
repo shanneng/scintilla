@@ -1,0 +1,2 @@
+Styles Folder
+this folder contains all the css files of the project.
