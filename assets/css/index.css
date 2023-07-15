@@ -197,7 +197,7 @@
   display: grid;
   grid-gap: var(--dl-space-space-twounits);
   align-items: flex-start;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 .home-footer {
   width: 100%;
