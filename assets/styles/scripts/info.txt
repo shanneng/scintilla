@@ -1,2 +1,0 @@
-Scripts Folder
-this folder contains all the js scripts of the project.
