@@ -15,6 +15,7 @@ F4EEE0
   font-size: larger;
   font-weight: bold;
   color: #393646;
+  animation: pulse .5s;
 }
 .navigation-links3-text {
   margin-left: var(--dl-space-space-twounits);
@@ -62,19 +63,48 @@ F4EEE0
   border-radius: var(--dl-radius-radius-radius4);
 }
 
-
-
-
-
-
 .navigation-section {
   width: 100%;
   display: flex;
   align-items: center;
   flex-direction: column;
+  background-image: linear-gradient(to right, #F4EEE0, #b1afb9);
   background-color: #F4EEE0;
   color: #393646;
   box-shadow: 1px 0px 50px 1px #F4EEE0;
+}
+
+.view-cart {
+  background-color: #F4EEE0;
+  border: 2px solid #393646;
+}
+.view-cart:hover {
+  background-color: #393646;
+  border: 2px solid #F4EEE0;
+  animation: pulse 1.5s;
+}
+.view-cart:hover svg {
+  fill: #F4EEE0;
+}
+
+
+/* Define the pulse animation */
+@keyframes pulse {
+
+  /* Start with the original size */
+  0% {
+    transform: scale(1);
+  }
+
+  /* Grow to 1.2 times the original size */
+  50% {
+    transform: scale(1.2);
+  }
+
+  /* Return to the original size */
+  100% {
+    transform: scale(1);
+  }
 }
 
 .home-container {
