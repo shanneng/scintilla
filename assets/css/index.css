@@ -55,6 +55,18 @@ F4EEE0
   animation: .5s;
   background-color: #F4EEE0;
 }
+.feature-card1-feature-card:hover .feature-card-btn {
+  display: block;
+  animation: .5s;
+}
+.feature-card-btn {
+  margin-top: var(--dl-space-space-unit);
+  padding: var(--dl-space-space-unit);
+  background-color: #393646;
+  color: #F4EEE0;
+  width: 100%;
+  display: none;
+}
 .feature-card1-text {
   margin-bottom: var(--dl-space-space-halfunit);
 }
